@@ -1,5 +1,5 @@
 # Gradients _do_ grow on trees: a linear-time O(N)-dimensional gradient for statistical phylogenetics
-This repository contains the instructions and files to replicate the analyses performed in the "Gradients _do_ grow on trees: a linear-time O(N)-dimensional gradient for statistical phylogenetics" paper by[]() Ji et al.
+This repository contains the instructions and files to reproduce the analyses performed in the "Gradients _do_ grow on trees: a linear-time O(N)-dimensional gradient for statistical phylogenetics" paper by Ji et al.
 
 
 ### Setting up BEAGLE
@@ -38,10 +38,10 @@ You can find them by `ls /usr/local/lib/*beagle*`.
 
 ### Setting up BEAST
 
-The following commands will compile the `gene_conversion` branch of BEAST.
+The following commands will compile the `hmc-clock` branch of BEAST.
 
 ```
-git clone -b gene_conversion https://github.com/beast-dev/beast-mcmc.git
+git clone -b hmc-clock https://github.com/beast-dev/beast-mcmc.git
 cd beast-mcmc
 ant
 ```
