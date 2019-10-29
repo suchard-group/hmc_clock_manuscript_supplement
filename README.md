@@ -124,14 +124,14 @@ cd where_you_want_to_save_results
 	* vanilla HMC
 
 	```
-java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_vanilla_only_rates.xml	
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_vanilla_only_rates.xml	
 	```
 		
 	* digonal preconditioned HMC
 
 
 	```
-java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_diagonal_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_diagonal_only_rates.xml
 	```
 
 
@@ -155,13 +155,13 @@ java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcm
 	* Univariate operator
 
 	```
-java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_only_rates.xml
 	```
 	
 	* vanilla HMC
 
 	```
-java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_vanilla_only_rates.xml	
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_vanilla_only_rates.xml	
 	```
 	
 	
