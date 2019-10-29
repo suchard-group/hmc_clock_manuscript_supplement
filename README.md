@@ -68,32 +68,32 @@ cd where_you_want_to_save_results
 	* Analytic gradient
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_HMC_skyline_MLE_Analytic.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_HMC_skyline_MLE_Analytic.xml
 	```
 	
 	* Numeric gradient 
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_HMC_skyline_MLE_Numeric.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_HMC_skyline_MLE_Numeric.xml
 	```
 
 * MCMC
 	* Univariate operator
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_Serial_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_Serial_only_rates.xml
 	```
 	
 	* vanilla HMC
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_vanilla_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_vanilla_only_rates.xml
 	```	
 	
 	* digonal preconditioned HMC
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_diagonal_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_diagonal_only_rates.xml
 	```
 	
 	
@@ -105,33 +105,33 @@ cd where_you_want_to_save_results
 	* Analytic gradient
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Analytic.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Analytic.xml
 	```
 	
 	* Numeric gradient 
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Numeric.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Numeric.xml
 	```
 
 * MCMC
 	* Univariate operator
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_Serial_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_Serial_only_rates.xml
 	```
 	
 	* vanilla HMC
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_vanilla_only_rates.xml	
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_vanilla_only_rates.xml	
 	```
 		
 	* digonal preconditioned HMC
 
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_diagonal_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_diagonal_only_rates.xml
 	```
 
 
@@ -142,26 +142,26 @@ cd where_you_want_to_save_results
 	* Analytic gradient
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_MLE_Analytic.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_MLE_Analytic.xml
 	```
 	
 	* Numeric gradient 
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_MLE_Numeric.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_MLE_Numeric.xml
 	```
 
 * MCMC
 	* Univariate operator
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_Serial_only_rates.xml
 	```
 	
 	* vanilla HMC
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_vanilla_only_rates.xml	
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_vanilla_only_rates.xml	
 	```
 	
 	
@@ -169,5 +169,5 @@ cd where_you_want_to_save_results
 
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_diagonal_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Dengue/Large_Dengue_Skyride_HMC_diagonal_only_rates.xml
 	```
