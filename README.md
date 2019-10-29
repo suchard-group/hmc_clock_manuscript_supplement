@@ -125,7 +125,7 @@ cd where_you_want_to_save_results
 
 	```
 	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_HMC_vanilla_only_rates.xml	```	
-
+	
 	* digonal preconditioned HMC
 
 	```
