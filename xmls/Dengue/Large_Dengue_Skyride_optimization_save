@@ -721,21 +721,21 @@ parameter	gt	1	0.016999408015974906
 parameter	alpha	1	0.2321417446936099
 parameter	null	1	1.0
 parameter	null	1	1.0
-operator	Vanilla HMC operator	52907	13166	-2.609131929441173
-operator	scale(branchRates.scale)	150260	493523	-1.8244063194549927
-operator	scale(branchRates.location)	295921	969567	-1.8496517579720915
-operator	scale(ac)	2937	9709	-0.2697403690092701
-operator	scale(ag)	3044	9854	-1.287629717785773
-operator	scale(at)	3052	9914	-0.8176825224827303
-operator	scale(cg)	3047	9816	0.04082173753100422
-operator	scale(gt)	3052	9906	0.1898424963402651
-operator	scale(alpha)	2984	9828	-1.4293610519641224
-operator	gmrfBlockUpdateOperator	381690	1233947	1.7140432889871335
-operator	scale(skyride.precision)	30257	98130	-0.46731039943966834
-operator	scale(treeModel.rootHeight)	296551	969700	0.8466914007643003
+operator	VanillaHMC(branchRates.rates)	52907	13166	-2.609131929441173	0
+operator	scale(branchRates.scale)	150260	493523	-1.8244063194549927	0
+operator	scale(branchRates.location)	295921	969567	-1.8496517579720915	0
+operator	scale(ac)	2937	9709	-0.2697403690092701	0
+operator	scale(ag)	3044	9854	-1.287629717785773	0
+operator	scale(at)	3052	9914	-0.8176825224827303	0
+operator	scale(cg)	3047	9816	0.04082173753100422	0
+operator	scale(gt)	3052	9906	0.1898424963402651	0
+operator	scale(alpha)	2984	9828	-1.4293610519641224	0
+operator	gmrfBlockUpdateOperator	381690	1233947	1.7140432889871335	0
+operator	scale(skyride.precision)	30257	98130	-0.46731039943966834	0
+operator	scale(treeModel.rootHeight)	296551	969700	0.8466914007643003	0
 operator	uniform(nodeHeights(treeModel))	16133342	35280586
-operator	up:branchRates.location down:nodeHeights(treeModel) 	300604	985067	-2.383683768758696
-operator	subtreeSlide(treeModel)	392945	1285564	-0.22367858897655424
+operator	up:branchRates.location down:nodeHeights(treeModel) 	300604	985067	-2.383683768758696	0
+operator	subtreeSlide(treeModel)	392945	1285564	-0.22367858897655424	0
 operator	Narrow Exchange(treeModel)	236173	1442873
 operator	Wide Exchange(treeModel)	289	434764
 operator	wilsonBalding(treeModel)	472	436362

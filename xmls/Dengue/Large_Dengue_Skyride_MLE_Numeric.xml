@@ -5615,8 +5615,7 @@
     <operators id="operators">
 
         <hamiltonianMonteCarloOperator weight="0.5" nSteps="5" stepSize="5E-2" mode="vanilla"
-                                       drawVariance="1.0" autoOptimize="true"
-                                       preconditioning="diagonal" preconditioningDelay="0" preconditioningUpdateFrequency="10">
+                                       drawVariance="1.0" autoOptimize="true">
             <jointGradient idref="jointGradient"/>
             <parameter idref="branchRates.rates"/>
             <signTransform>
