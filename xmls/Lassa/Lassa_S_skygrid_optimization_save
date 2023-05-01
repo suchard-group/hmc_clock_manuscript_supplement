@@ -445,25 +445,25 @@ parameter	CP3.mu	1	2.168104167515954
 parameter	CP3.alpha	1	1.8845995899820966
 parameter	null	1	1.0
 parameter	null	1	1.0
-operator	Vanilla HMC operator	22518	5465	-1.4083975698816003
-operator	scale(branchRates.scale)	6496	21609	-0.12696077162319644
-operator	scale(branchRates.location)	19508	64975	-2.2610037195246973
+operator	VanillaHMC(branchRates.rates)	22518	5465	-1.4083975698816003	0
+operator	scale(branchRates.scale)	6496	21609	-0.12696077162319644	0
+operator	scale(branchRates.location)	19508	64975	-2.2610037195246973	0
 operator	uniform(nodeHeights(treeModel))	2325425	6110552
-operator	scale(treeModel.rootHeight)	20798	64152	1.6252324063308667
-operator	up:branchRates.location down:nodeHeights(treeModel) 	19715	64956	-1.2847078269091745
-operator	frequencies	3312	10598	-3.9900057619796283
-operator	scale(ac)	6624	21513	-0.6966151819235737
-operator	scale(ag)	6576	21728	-1.746079458059916
-operator	scale(at)	6572	21577	-1.216286381070974
-operator	scale(cg)	6632	21516	-0.30636466301740095
-operator	scale(gt)	6658	21563	-0.6203092065807704
-operator	scale(CP1.alpha)	6543	21266	-1.1293840073806658
-operator	scale(CP2.alpha)	6543	21360	-1.3778990662621575
-operator	scale(CP3.alpha)	6527	21553	-1.0387312791079897
-operator	gmrfBlockUpdateOperator	35559	20795	0.0
-operator	scale(skygrid.precision)	6826	21079	0.7869311243661914
-operator	allMus	19487	65243	-2.298319211944701
-operator	subtreeSlide(treeModel)	67715	213805	1.6910675354606652
+operator	scale(treeModel.rootHeight)	20798	64152	1.6252324063308667	0
+operator	up:branchRates.location down:nodeHeights(treeModel) 	19715	64956	-1.2847078269091745	0
+operator	deltaExchange(frequencies)	3312	10598	-3.9900057619796283	0
+operator	scale(ac)	6624	21513	-0.6966151819235737	0
+operator	scale(ag)	6576	21728	-1.746079458059916	0
+operator	scale(at)	6572	21577	-1.216286381070974	0
+operator	scale(cg)	6632	21516	-0.30636466301740095	0
+operator	scale(gt)	6658	21563	-0.6203092065807704	0
+operator	scale(CP1.alpha)	6543	21266	-1.1293840073806658	0
+operator	scale(CP2.alpha)	6543	21360	-1.3778990662621575	0
+operator	scale(CP3.alpha)	6527	21553	-1.0387312791079897	0
+operator	gmrfBlockUpdateOperator	35559	20795	0.0	0
+operator	scale(skygrid.precision)	6826	21079	0.7869311243661914	0
+operator	deltaExchange(allMus)	19487	65243	-2.298319211944701	0
+operator	subtreeSlide(treeModel)	67715	213805	1.6910675354606652	0
 operator	Narrow Exchange(treeModel)	29434	251615
 operator	Wide Exchange(treeModel)	159	140655
 operator	wilsonBalding(treeModel)	268	139732

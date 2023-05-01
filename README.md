@@ -105,13 +105,13 @@ cd where_you_want_to_save_results
 	* Analytic gradient
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Analytic.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -force_resume -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Analytic.xml
 	```
 	
 	* Numeric gradient 
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Numeric.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -force_resume -load_state where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_optimization_save -seed 666 -overwrite where_this_repository_is_stored/xmls/Lassa/Lassa_S_skygrid_MLE_Numeric.xml
 	```
 
 * MCMC
