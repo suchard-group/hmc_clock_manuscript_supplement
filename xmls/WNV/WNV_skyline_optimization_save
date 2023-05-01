@@ -224,22 +224,22 @@ parameter	gtr.gt	1	0.04411503306446212
 parameter	siteModel.alpha	1	0.2071616951657833
 parameter	null	1	1.0
 parameter	null	1	1.0
-operator	Vanilla HMC operator	1911	181	-1.434847019138019
-operator	scale(branchRates.scale)	757	1228	-0.1436618481344332
-operator	scale(branchRates.location)	1285	5036	-1.4431258008347774
+operator	VanillaHMC(branchRates.rates)	1911	181	-1.434847019138019	0
+operator	scale(branchRates.scale)	757	1228	-0.1436618481344332	0
+operator	scale(branchRates.location)	1285	5036	-1.4431258008347774	0
 operator	uniform(nodeHeights(treeModel))	150554	161490
-operator	scale(treeModel.rootHeight)	3426	2783	1.7295341805794582
-operator	up:branchRates.location down:nodeHeights(treeModel) 	805	5516	-1.4268142959994712
-operator	scale(gtr.ac)	51	54	0.34947847829786477
-operator	scale(gtr.ag)	42	74	-0.636659351868353
-operator	scale(gtr.at)	48	62	0.740115463460763
-operator	scale(gtr.cg)	47	60	0.420173894188255
-operator	scale(gtr.gt)	43	51	0.3246119391194073
-operator	gtr.frequencies	734	1365	-3.8529236788474375
-operator	scale(siteModel.alpha)	1039	976	0.645357651160906
-operator	scale(skyline.popSize)	15849	15516	1.0101985071063908
-operator	skyline.groupSize	1778	10616	1.3862943611198906
-operator	subtreeSlide(treeModel)	1080	5184	-1.0742186992232583
+operator	scale(treeModel.rootHeight)	3426	2783	1.7295341805794582	0
+operator	up:branchRates.location down:nodeHeights(treeModel) 	805	5516	-1.4268142959994712	0
+operator	scale(gtr.ac)	51	54	0.34947847829786477	0
+operator	scale(gtr.ag)	42	74	-0.636659351868353	0
+operator	scale(gtr.at)	48	62	0.740115463460763	0
+operator	scale(gtr.cg)	47	60	0.420173894188255	0
+operator	scale(gtr.gt)	43	51	0.3246119391194073	0
+operator	deltaExchange(gtr.frequencies)	734	1365	-3.8529236788474375	0
+operator	scale(siteModel.alpha)	1039	976	0.645357651160906	0
+operator	scale(skyline.popSize)	15849	15516	1.0101985071063908	0
+operator	deltaExchange(skyline.groupSize)	1778	10616	1.3862943611198906	0
+operator	subtreeSlide(treeModel)	1080	5184	-1.0742186992232583	0
 operator	Narrow Exchange(treeModel)	2002	4217
 operator	Wide Exchange(treeModel)	23	2039
 operator	wilsonBalding(treeModel)	38	2040

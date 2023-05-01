@@ -87,7 +87,7 @@ cd where_you_want_to_save_results
 	* vanilla HMC
 
 	```
-	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_vanilla_only_rates.xml
+	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_SSE_off -load_state where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_vanilla_save -seed 666 -overwrite where_this_repository_is_stored/xmls/WNV/WNV_skyline_HMC_vanilla_only_rates.xml
 	```	
 	
 	* digonal preconditioned HMC
